@@ -1,37 +1,40 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Onitama",
+    subtitle: "Java",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Nesse projeto, tive a oportunidade de desenvolver as regras do jogo Onitama em JAVA",
+    image: "./image1.png",
+    link: "https://github.com/wgrfernandes/ONITAMA-EP",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+    title: "Ping Pong",
+    subtitle: "React",
+    description: "Aqui eu pude fazer um jogo super legal de ping pong",
+    image: "./image2.jpg",
+    link: "https://github.com/wgrfernandes/pingpong",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Password Generator",
+    subtitle: "JavaScript, HTML e CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+      "Nesse projeto, usei JavaScript, HTML e CSS para poder fazer um gerador de senhas",
+    image: "./image3.png",
+    link: "https://github.com/wgrfernandes/passwordGenerator",
   },
 ];
 
-export const skills = [];
-export const testimonials = [];
+export const skills = [
+  "JavaScript",
+  "Python",
+  "HTML",
+  "CSS",
+  "C",
+  "SQL",
+  "Java",
+  "Kali Linux",
+  "OSINT",
+  "OWASP",
+  "Planejamento de Projetos",
+  "Organização de Rotinas",
+];
