@@ -77,7 +77,9 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             CONTATE-ME:
           </h2>
-          <p></p>
+          <p>
+            <br />
+          </p>
           <nav>
             <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
               <a
