@@ -5,7 +5,7 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faInstagram } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { fas } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"; // Import from free-brands-svg-icons
 
@@ -48,6 +48,15 @@ export default function Navbar() {
           <div className=" text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
             <a href="https://wa.me/+5519995842471">
               <FontAwesomeIcon icon="comment-dots" /> WhatsApp
+            </a>
+          </div>
+          <div className=" text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+            <a
+              href="wesley.fernan1@gmail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <FontAwesomeIcon icon={faEnvelope} /> E-Mail
             </a>
           </div>
           <div className=" text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
