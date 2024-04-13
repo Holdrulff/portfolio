@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Password Generator",
+    subtitle: "JavaScript, HTML e CSS",
+    description:
+      "Nesse projeto, usei JavaScript, HTML e CSS para poder fazer um gerador de senhas",
+    image: "./image3.png",
+    link: "https://gerador-de-senhas-forte.netlify.app/",
+  },
+  {
     title: "Onitama",
     subtitle: "Java",
     description:
@@ -12,15 +20,7 @@ export const projects = [
     subtitle: "React",
     description: "Aqui eu pude fazer um jogo super legal de ping pong",
     image: "./image2.jpg",
-    link: "https://github.com/wgrfernandes/pingpong",
-  },
-  {
-    title: "Password Generator",
-    subtitle: "JavaScript, HTML e CSS",
-    description:
-      "Nesse projeto, usei JavaScript, HTML e CSS para poder fazer um gerador de senhas",
-    image: "./image3.png",
-    link: "https://github.com/wgrfernandes/passwordGenerator",
+    link: "https://crashed-ping-pong.netlify.app/",
   },
 ];
 
