@@ -37,4 +37,12 @@ export const skills = [
   "OWASP",
   "Planejamento de Projetos",
   "Organização de Rotinas",
+  "Inglês Avançado (C1)",
+  "Espanhol Fluente",
+  "Resolução de Problemas",
+  "Trabalho em Equipe",
+  "Liderança",
+  "Escuta ativa",
+  "Criatividade",
+  "Resiliência",
 ];

@@ -2,17 +2,17 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about">
+    <section id="about" className="text-gray-400 bg-gray-900 body-font">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <div>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-              Prazer, eu sou o Wesley!
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+              Wesley Fernandes
             </h1>
           </div>
           <div>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-              Seja bem-vindo(a) a minha pagina
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+              Estudante de Sistemas de Informação - USP
             </h1>
           </div>
 
