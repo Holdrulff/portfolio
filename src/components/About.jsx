@@ -6,39 +6,34 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <div>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            <h1 className=" text-justify title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
               Wesley Fernandes
             </h1>
           </div>
           <div>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            <h1 className="text-justify title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
               Estudante de Sistemas de Informação - USP
             </h1>
           </div>
-
-          <p className="mb-8 leading-relaxed">
-            Como estudante de Sistemas de Informação, estou profundamente imerso
-            no mundo da tecnologia, com grande interesse em linguagens de
-            programação como C, Python e JavaScript. Através de experiência
-            prática e projetos acadêmicos, aprimorei minhas habilidades nessas
-            linguagens, permitindo-me enfrentar problemas complexos e
-            desenvolver soluções inovadoras.
-          </p>
-          <p className="mb-8 leading-relaxed">
-            Além da programação, minha paixão está na segurança cibernética,
-            onde exploro constantemente novas técnicas e estratégias para
-            proteger ativos digitais e contra ameaças cibernéticas. Estou
-            comprometido em me manter atualizado sobre as últimas tendências e
-            avanços em Cyber Segurança para garantir que estou bem equipado para
-            lidar com o cenário em evolução dos riscos cibernéticos.
-          </p>
-          <p className="mb-8 leading-relaxed">
-            Além disso, sou um entusiasta ávido de testes de penetração,
-            fascinado pelas complexidades do hacking ético. Através do
-            aprendizado autodirigido e da participação em competições Capture
-            The Flag (CTF), aprimoro continuamente meu conhecimento e
-            experiência em identificar vulnerabilidades e proteger sistemas.
-          </p>
+          <span class="text-justify">
+            <p className="mb-8 leading-relaxed">
+              Estudante de Sistemas de Informação que ama resolver problemas
+              complexos e trabalhar com pessoas. Busco participar de projetos
+              que desafiem minhas habilidades e conhecimentos, e que motivem o
+              aprendizado constante.
+            </p>
+            <p className="mb-8 leading-relaxed">
+              Além da programação, minha paixão está na segurança cibernética,
+              onde exploro constantemente novas técnicas e estratégias para
+              proteger ativos digitais e contra ameaças cibernéticas.
+            </p>
+            <p className="mb-8 leading-relaxed">
+              Entusiasta ávido de testes de penetração, fascinado pelas
+              complexidades do hacking ético. Aprimoro continuamente meu
+              conhecimento e experiência em identificar vulnerabilidades e
+              proteger sistemas.
+            </p>
+          </span>
           <div className="flex justify-center">
             <a
               href="#contact"

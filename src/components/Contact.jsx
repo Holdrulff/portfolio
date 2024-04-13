@@ -1,4 +1,7 @@
 import React from "react";
+import { faEnvelope, fas } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -75,6 +78,49 @@ export default function Contact() {
             Contate-me
           </h2>
           <p className="leading-relaxed mb-5">Entre em contato:</p>
+          <nav>
+            <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+              <a
+                href="https://www.instagram.com/accounts/login/?hl=en"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FontAwesomeIcon icon={faInstagram} /> wfernvndes
+              </a>
+              <div className="social-link">
+                <a
+                  href="https://www.instagram.com/accounts/login/?hl=en"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+              <a href="https://wa.me/+5519995842471">
+                <FontAwesomeIcon icon="comment-dots" /> WhatsApp
+              </a>
+            </div>
+            <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+              <a
+                href="mailto:wesley.fernan1@gmail.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FontAwesomeIcon icon={faEnvelope} /> E-Mail
+              </a>
+            </div>
+            <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+              <a
+                href="https://github.com/Holdrulff"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FontAwesomeIcon icon={faGithub} /> GitHub
+              </a>
+            </div>
+          </nav>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Nome
