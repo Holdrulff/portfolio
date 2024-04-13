@@ -45,7 +45,7 @@ export default function Contact() {
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                ADDRESS
+                ENDEREÇO
               </h2>
               <p className="mt-1 text-gray-200">
                 Vila Silvia - Z/L - SP. <br />
@@ -60,7 +60,7 @@ export default function Contact() {
                 wesley.fernan1@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
+                TELEFONE
               </h2>
               <p className="leading-relaxed text-gray-200">(19-99584-2471)</p>
             </div>
@@ -77,7 +77,7 @@ export default function Contact() {
           <p className="leading-relaxed mb-5">Entre em contato:</p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-              Name
+              Nome
             </label>
             <input
               type="text"
@@ -102,7 +102,7 @@ export default function Contact() {
               htmlFor="message"
               className="leading-7 text-sm text-gray-400"
             >
-              Message
+              Mensagem
             </label>
             <textarea
               id="message"
@@ -114,7 +114,7 @@ export default function Contact() {
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
           >
-            Submit
+            Enviar
           </button>
         </form>
       </div>
