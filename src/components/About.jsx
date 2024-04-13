@@ -29,17 +29,15 @@ export default function About() {
             onde exploro constantemente novas técnicas e estratégias para
             proteger ativos digitais e contra ameaças cibernéticas. Estou
             comprometido em me manter atualizado sobre as últimas tendências e
-            avanços em segurança cibernética para garantir que estou bem
-            equipado para lidar com o cenário em evolução dos riscos
-            cibernéticos.
+            avanços em Cyber Segurança para garantir que estou bem equipado para
+            lidar com o cenário em evolução dos riscos cibernéticos.
           </p>
           <p className="mb-8 leading-relaxed">
             Além disso, sou um entusiasta ávido de testes de penetração,
-            fascinado pelas complexidades do hacking ético e testes de
-            penetração. Através do aprendizado autodirigido e da participação em
-            competições Capture The Flag (CTF), aprimoro continuamente meu
-            conhecimento e experiência em identificar vulnerabilidades e
-            proteger sistemas.
+            fascinado pelas complexidades do hacking ético. Através do
+            aprendizado autodirigido e da participação em competições Capture
+            The Flag (CTF), aprimoro continuamente meu conhecimento e
+            experiência em identificar vulnerabilidades e proteger sistemas.
           </p>
           <div className="flex justify-center">
             <a
