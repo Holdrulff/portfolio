@@ -128,6 +128,7 @@ export default function Contact() {
               Nome
             </label>
             <input
+              value={name}
               type="text"
               id="name"
               name="name"
@@ -140,6 +141,7 @@ export default function Contact() {
               Email
             </label>
             <input
+              value={email}
               type="email"
               id="email"
               name="email"
@@ -155,6 +157,7 @@ export default function Contact() {
               Mensagem
             </label>
             <textarea
+              value={message}
               id="message"
               name="message"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
