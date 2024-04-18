@@ -17,14 +17,18 @@ export default function Contact() {
   }
 
   function handleSubmit(e) {
+    console.log("Iniciando o envio de email");
+    const body = encode({ "form-name": "contact", name, email, message });
+    console.log(body);
     e.preventDefaul();
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
+      body,
     })
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
+    console.log("Envio de email finalizado");
   }
 
   return (
@@ -69,7 +73,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <form netlify name="contact" onSubmit={handleSubmit}>
+        <form netlify name="contact" method="POST" onSubmit={handleSubmit}>
           <h2 className="text-white text-center sm:text-4xl text-3xl mb-1 font-medium title-font">
             CONTATE-ME:
           </h2>
