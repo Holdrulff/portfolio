@@ -123,55 +123,6 @@ export default function Contact() {
               </a>
             </div>
           </nav>
-          <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-              Nome
-            </label>
-            <input
-              value={name}
-              type="text"
-              id="name"
-              name="name"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setName(e.target.value)}
-            />
-          </div>
-          <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-              Email
-            </label>
-            <input
-              value={email}
-              type="email"
-              id="email"
-              name="email"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </div>
-          <div className="relative mb-4">
-            <label
-              htmlFor="message"
-              className="leading-7 text-sm text-gray-400"
-            >
-              Mensagem
-            </label>
-            <textarea
-              value={message}
-              id="message"
-              name="message"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setMessage(e.target.value)}
-            />
-          </div>
-          <div class="flex items-center justify-center">
-            <button
-              type="submit"
-              className=" text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg justify center"
-            >
-              Enviar
-            </button>
-          </div>
         </form>
       </div>
     </section>
