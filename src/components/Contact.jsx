@@ -36,8 +36,8 @@ export default function Contact() {
       id="contact"
       className="relative text-gray-400 bg-gray-900 body-font"
     >
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <div className="container justify-center  px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="lg:w-1/2 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
@@ -74,53 +74,55 @@ export default function Contact() {
           </div>
         </div>
         <form netlify name="contact" onSubmit={handleSubmit}>
-          <h2 className="text-white text-center sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-white text-center lg:text-4xl md:text-2xl sm:text-1xl text-1xl mb-1 font-medium title-font">
             CONTATE-ME:
           </h2>
           <p>
             <br />
           </p>
           <nav>
-            <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-              <a
-                href="https://www.instagram.com/accounts/login/?hl=en"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <FontAwesomeIcon icon={faInstagram} /> wfernvndes
-              </a>
-              <div className="social-link">
+            <div className="grid lg:grid-cols-2 sm:grid-cols-1">
+              <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
                 <a
                   href="https://www.instagram.com/accounts/login/?hl=en"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <i className="fab fa-instagram"></i>
+                  <FontAwesomeIcon icon={faInstagram} /> wfernvndes
+                </a>
+                <div className="social-link">
+                  <a
+                    href="https://www.instagram.com/accounts/login/?hl=en"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+                <a href="https://wa.me/+5519995842471">
+                  <FontAwesomeIcon icon="comment-dots" /> WhatsApp
                 </a>
               </div>
-            </div>
-            <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-              <a href="https://wa.me/+5519995842471">
-                <FontAwesomeIcon icon="comment-dots" /> WhatsApp
-              </a>
-            </div>
-            <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-              <a
-                href="mailto:wesley.fernan1@gmail.com"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <FontAwesomeIcon icon={faEnvelope} /> E-Mail
-              </a>
-            </div>
-            <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-              <a
-                href="https://github.com/Holdrulff"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <FontAwesomeIcon icon={faGithub} /> GitHub
-              </a>
+              <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+                <a
+                  href="mailto:wesley.fernan1@gmail.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <FontAwesomeIcon icon={faEnvelope} /> E-Mail
+                </a>
+              </div>
+              <div className=" text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+                <a
+                  href="https://github.com/Holdrulff"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <FontAwesomeIcon icon={faGithub} /> GitHub
+                </a>
+              </div>
             </div>
           </nav>
         </form>
