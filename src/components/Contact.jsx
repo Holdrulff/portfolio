@@ -73,7 +73,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <form netlify name="contact" method="POST" onSubmit={handleSubmit}>
+        <form netlify name="contact" onSubmit={handleSubmit}>
           <h2 className="text-white text-center sm:text-4xl text-3xl mb-1 font-medium title-font">
             CONTATE-ME:
           </h2>
